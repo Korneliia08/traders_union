@@ -1,0 +1,51 @@
+.asideBlock {
+  padding: 16px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #E1E1E1;
+}
+
+.asideAds {
+  justify-content: center;
+}
+.asideAds .adsIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.asideAds h2 {
+  font-weight: bold;
+  line-height: 35px;
+  font-size: 25px;
+  color: #71B219;
+  text-align: center;
+  width: 100%;
+}
+.asideAds .text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 135%;
+  color: rgba(0, 0, 0, 0.7);
+}
+.asideAds button {
+  background-color: #1873EB;
+  border-radius: 6px;
+  padding: 10px 0px;
+  margin-bottom: 6px;
+  margin-top: 22px;
+  line-height: 24px;
+  width: 100%;
+  font-size: 16px;
+  color: White;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.asideAds .annotationText {
+  text-align: center;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+/*# sourceMappingURL=asideAds.css.map */

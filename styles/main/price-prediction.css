@@ -1,0 +1,50 @@
+.price-prediction h2 {
+  font-size: 36px;
+  line-height: 135%;
+  margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+  .price-prediction h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+.price-prediction .tableContainer {
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+.price-prediction table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.price-prediction table thead {
+  background-color: #F9F9F9;
+}
+.price-prediction table thead tr th {
+  text-align: left;
+  padding: 16px;
+}
+.price-prediction table tbody tr td {
+  border-bottom: 1px solid #E1E1E1;
+  padding: 16px;
+}
+.price-prediction .priceTable-mobile thead tr th select {
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #D3D3D4;
+}
+.price-prediction .priceTable-mobile tbody tr th {
+  font-size: 14px;
+  color: #404040;
+  font-weight: normal;
+}
+.price-prediction .priceTable-mobile tbody tr td {
+  font-size: 14px;
+  width: 50%;
+}
+
+/*# sourceMappingURL=price-prediction.css.map */

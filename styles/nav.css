@@ -1,0 +1,64 @@
+.containerForNav {
+  border-bottom: 2px solid rgb(225, 225, 225);
+}
+.containerForNav nav {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding: 8px 0;
+}
+.containerForNav nav a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.containerForNav nav a:hover {
+  color: #012a93;
+}
+
+.blockForIconsInHeader {
+  padding: 8px 0 0 8px;
+  display: flex;
+  column-gap: 20px;
+}
+.blockForIconsInHeader .searchInput {
+  width: 100px;
+  font-size: 18px;
+  position: relative;
+  z-index: 9;
+  right: -44px;
+  top: -3px;
+  opacity: 0;
+}
+.blockForIconsInHeader img {
+  z-index: 10;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.blockForIconsInHeader img:hover {
+  cursor: pointer;
+}
+.blockForIconsInHeader .hamburger {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.blockForIconsInHeader .hamburger > div {
+  background: black;
+  width: 27px;
+  height: 3px;
+  transition: 300ms;
+}
+.blockForIconsInHeader .hamburger.open > div:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 7px);
+}
+.blockForIconsInHeader .hamburger.open > div:nth-child(2) {
+  opacity: 0;
+}
+.blockForIconsInHeader .hamburger.open > div:nth-child(3) {
+  transform: translate(-3px, -8px) rotate(-45deg);
+}
+
+/*# sourceMappingURL=nav.css.map */

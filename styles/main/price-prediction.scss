@@ -1,0 +1,72 @@
+.price-prediction {
+  h2 {
+    font-size: 36px;
+    line-height: 135%;
+    margin-bottom: 20px;
+    @media (max-width: 800px) {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .tableContainer {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+
+  }
+
+  table {
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+
+    thead {
+      background-color: #F9F9F9;
+
+      tr th {
+        text-align: left;
+        padding: 16px;
+      }
+    }
+
+    tbody {
+      tr td {
+        border-bottom: 1px solid #E1E1E1;
+        padding: 16px;
+      }
+    }
+  }
+
+  .priceTable-mobile {
+    thead tr th {
+      select {
+        width: 100%;
+        padding: 10px;
+        background: white;
+        border: 1px solid #D3D3D4;
+
+      }
+    }
+
+    tbody {
+      tr {
+        th {
+          font-size: 14px;
+          color: #404040;
+          font-weight: normal;
+        }
+
+        td {
+          font-size: 14px;
+          width: 50%;
+        }
+      }
+    }
+  }
+}

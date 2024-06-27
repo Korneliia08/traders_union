@@ -1,0 +1,137 @@
+.containerDollarUsEuro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-top: 20px;
+
+  h2 {
+  }
+
+  .containerForTwoParts {
+    display: flex;
+    justify-content: space-between;
+
+    .leftPart {
+      display: flex;
+      column-gap: 16px;
+
+      .grayBlock {
+        background-color: rgba(83, 145, 0, 0.07);
+        display: flex;
+        align-items: center;
+        padding: 8px 15px;
+
+        .blackBigSpan {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 40px;
+          margin-right: 20px;
+          @media (max-width: 1000px) {
+            font-size: 22px;
+            margin-right: 10px;
+          }
+        }
+
+        .blockForGreenSpan {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            color: rgba(83, 145, 0, 1);
+            font-size: 21px;
+            font-weight: 700;
+            @media (max-width: 1000px) {
+              font-size: 18px;
+            }
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+
+    }
+
+    .blockForTimeAndDisclaimer {
+      display: flex;
+      flex-direction: column;
+      row-gap: 6px;
+
+      .blockForTime {
+        display: flex;
+
+        img {
+          width: 18px;
+          height: 18px;
+          margin-right: 10px;
+        }
+
+        span {
+          font-size: 15px;
+          line-height: 18px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.7);
+
+        }
+      }
+
+      .spanDisclaimer {
+        font-size: 15px;
+        line-height: 18px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.7);
+        //  border-bottom: 2px dotted grey;
+        margin-left: 28px;
+        text-decoration: underline;
+        text-decoration-color: grey;
+        text-decoration-style: dotted;
+        text-underline-offset: 5px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .rightPart {
+      display: flex;
+      flex-direction: column;
+
+
+      .blockForChange {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+          margin: 0 8px;
+          @media (max-width: 1050px) {
+            max-width: 50%;
+          }
+          @media (max-width: 950px) {
+            max-width: 35%;
+          }
+        }
+
+        .title {
+          font-size: 15px;
+          line-height: 18px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.7);
+          margin-right: 18px;
+        }
+
+        .firstNumber, .secondNumber {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 21px;
+          @media (max-width: 800px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

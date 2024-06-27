@@ -1,0 +1,109 @@
+.topGainers h2 {
+  font-size: 21px;
+  line-height: 135%;
+}
+.topGainers h2 .green {
+  color: #539100;
+}
+.topGainers h2 .red {
+  color: #CC5249;
+}
+.topGainers .block1 {
+  width: 40px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.topGainers .nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFDFE0;
+}
+.topGainers .nav a {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+}
+.topGainers .nav a:hover {
+  cursor: pointer;
+}
+.topGainers .nav a.active {
+  position: relative;
+  color: #539100;
+}
+.topGainers .nav a.active:after {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  content: "";
+  bottom: -4px;
+  border-bottom: 3px solid #539100;
+}
+.topGainers .elements {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  margin-top: 10px;
+}
+.topGainers .elements .element {
+  overflow: hidden;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 12px;
+  font-weight: bolder;
+}
+.topGainers .elements .element:nth-child(1) {
+  border: 1px solid #FAC71E;
+}
+.topGainers .elements .element:nth-child(2) {
+  border: 1px solid #C0C8D0;
+}
+.topGainers .elements .element:nth-child(3) {
+  border: 1px solid #FCA16E;
+}
+.topGainers .elements .element .count {
+  height: 37px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topGainers .elements .element .count.color1 {
+  background-color: rgba(250, 199, 30, 0.15);
+}
+.topGainers .elements .element .count.color2 {
+  background-color: rgba(192, 200, 208, 0.15);
+}
+.topGainers .elements .element .count.color3 {
+  background-color: rgba(252, 161, 110, 0.15);
+}
+.topGainers .elements .element .arrow {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topGainers .elements .element .arrow img {
+  position: relative;
+  top: 3px;
+}
+.topGainers .elements .element .text {
+  font-size: 14px;
+}
+.topGainers .elements .element .value {
+  font-size: 14px;
+  flex-grow: 100;
+  text-align: center;
+}
+.topGainers .elements .element .value.green {
+  color: #539100;
+}
+.topGainers .elements .element .value.red {
+  color: #CC5249;
+}
+
+/*# sourceMappingURL=topGainers.css.map */

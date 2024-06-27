@@ -1,0 +1,63 @@
+.asideBlock {
+  padding: 16px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #E1E1E1;
+
+}
+
+.asideAds {
+
+  justify-content: center;
+
+  .adsIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    //  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .logo {
+
+  }
+
+  h2 {
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 25px;
+    color: #71B219;
+    text-align: center;
+    width: 100%;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 135%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  button {
+    background-color: #1873EB;
+    border-radius: 6px;
+    padding: 10px 0px;
+    margin-bottom: 6px;
+    margin-top: 22px;
+    line-height: 24px;
+    width: 100%;
+    font-size: 16px;
+    color: White;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .annotationText {
+    text-align: center;
+    font-size: 12px;
+    line-height: 110%;
+
+  }
+}

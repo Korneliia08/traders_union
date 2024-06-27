@@ -1,0 +1,184 @@
+.dollarForecastDescription h2 {
+  font-size: 36px;
+  margin-bottom: 22px;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+.dollarForecastDescription .container {
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #DAEBD8;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .container {
+    padding: 10px;
+  }
+}
+.dollarForecastDescription .container .element {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+}
+@media (max-width: 700px) {
+  .dollarForecastDescription .container .element {
+    align-items: flex-start;
+  }
+}
+.dollarForecastDescription .container .element .step {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  align-items: center;
+  color: #539100;
+  background: rgba(113, 178, 25, 0.1);
+  position: relative;
+  flex-shrink: 0;
+}
+.dollarForecastDescription .container .element .step img {
+  position: absolute;
+}
+.dollarForecastDescription .container .spacer {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #E1E1E1;
+  height: 1px;
+  width: 100%;
+}
+.dollarForecastDescription .description {
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 175%;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .description {
+    font-size: 14px;
+  }
+}
+.dollarForecastDescription .horizontalBlocks {
+  display: flex;
+  column-gap: 10px;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .horizontalBlocks {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+}
+.dollarForecastDescription .horizontalBlocks .block {
+  display: flex;
+  max-width: 283px;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(83, 145, 0, 0.25);
+  overflow: hidden;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .horizontalBlocks .block {
+    width: 100%;
+    max-width: none;
+  }
+}
+.dollarForecastDescription .horizontalBlocks .block:nth-child(1) .block_top {
+  background: rgba(113, 178, 25, 0.07);
+  color: #539100;
+}
+.dollarForecastDescription .horizontalBlocks .block:nth-child(2) .block_top {
+  background: rgba(204, 82, 73, 0.07);
+  color: #CC5249;
+}
+.dollarForecastDescription .horizontalBlocks .block:nth-child(3) .block_top {
+  color: #292E33;
+  background: rgba(41, 46, 51, 0.07);
+}
+.dollarForecastDescription .horizontalBlocks .block .block_top {
+  border-radius: 9px;
+  max-width: 127px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 6px 16px;
+}
+.dollarForecastDescription .horizontalBlocks .block .medium {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  line-height: 165%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .horizontalBlocks .block .medium {
+    font-size: 14px;
+  }
+}
+.dollarForecastDescription .horizontalBlocks .block .bottom {
+  background: #F0F1F2;
+  height: 42px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  color: black;
+}
+.dollarForecastDescription .additionalInformation {
+  background: rgba(44, 100, 235, 0.07);
+  border-left: 5px solid #1873EB;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 35px 0;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.dollarForecastDescription .additionalInformation .additionalInformation_top {
+  font-size: 16px;
+  line-height: 175%;
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .additionalInformation .additionalInformation_top {
+    font-size: 14px;
+  }
+}
+.dollarForecastDescription .additionalInformation .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 6px 10px;
+  max-width: 445px;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #1873EB;
+  background: rgba(44, 100, 235, 0.05);
+}
+@media (max-width: 800px) {
+  .dollarForecastDescription .additionalInformation .bottom {
+    font-size: 14px;
+  }
+}
+.dollarForecastDescription .additionalInformation .bottom:hover {
+  cursor: pointer;
+}
+.dollarForecastDescription .additionalInformation .bottom img {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=dollarForecastDescription.css.map */

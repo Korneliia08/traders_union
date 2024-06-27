@@ -1,0 +1,162 @@
+.currentCourse {
+  display: flex;
+  padding: 16px 0;
+  background-color: rgb(249, 249, 249);
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.currentCourse .containerForOptionsAndSocials {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .currentCourse .containerForOptionsAndSocials {
+    flex-direction: column-reverse;
+  }
+}
+.currentCourse .containerForOptionsAndSocials .blockForOptions {
+  display: flex;
+  column-gap: 13px;
+  align-items: center;
+  height: 40px;
+}
+.currentCourse .containerForOptionsAndSocials .blockForOptions a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(79, 79, 79);
+  text-transform: uppercase;
+}
+.currentCourse .containerForOptionsAndSocials .blockForOptions a:first-child {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(44, 100, 235, 0.07);
+  color: rgb(44, 100, 235);
+  border-radius: 50px;
+  padding: 0px 20px;
+  border: 1px solid rgba(44, 100, 235, 0.35);
+}
+.currentCourse .containerForOptionsAndSocials .blockForSocials {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+}
+@media (max-width: 800px) {
+  .currentCourse .containerForOptionsAndSocials .blockForSocials {
+    width: 100%;
+    padding-right: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+.currentCourse .containerForOptionsAndSocials .blockForSocials .spanShare {
+  line-height: 18px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 800px) {
+  .currentCourse .containerForOptionsAndSocials .blockForSocials .spanShare {
+    font-size: 14px;
+  }
+}
+.currentCourse .containerForOptionsAndSocials .blockForSocials img {
+  width: 18px;
+  height: 18px;
+}
+.currentCourse .containerForOptionsAndSocials .blockForSocials img:hover {
+  cursor: pointer;
+}
+.currentCourse .containerForSelectInCurrency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.currentCourse .containerForSelectInCurrency select {
+  padding: 10px;
+  background: white;
+  border: 1px solid #D3D3D4;
+  width: 95%;
+}
+.currentCourse .containerForBlocksOfCurrency {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px;
+  column-gap: 10px;
+  overflow-x: hidden;
+  max-width: 1170px;
+}
+.currentCourse .containerForBlocksOfCurrency .block {
+  min-width: 200px;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  max-width: 220px;
+  width: 100%;
+  justify-content: space-between;
+  margin-right: 5px;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart {
+  display: flex;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForIcon {
+  background-color: rgba(83, 145, 0, 0.07);
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForIcon:nth-child(2) {
+  background-color: rgba(204, 82, 73, 0.07);
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForIcon img {
+  width: 20px;
+  height: 20px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForCurrencyAndValue {
+  display: flex;
+  flex-direction: column;
+  max-width: 105px;
+  width: 100%;
+  align-content: start;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForCurrencyAndValue .currencySpan {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .leftPart .blockForCurrencyAndValue .valueSpan {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .rightPart {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .rightPart .spanPercent {
+  color: rgb(83, 145, 0);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+.currentCourse .containerForBlocksOfCurrency .block .rightPart .spanValue {
+  color: rgb(83, 145, 0);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/*# sourceMappingURL=currentCourse.css.map */

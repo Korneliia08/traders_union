@@ -1,0 +1,124 @@
+.containerDollarUsEuro {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-top: 20px;
+}
+.containerDollarUsEuro .containerForTwoParts {
+  display: flex;
+  justify-content: space-between;
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart {
+  display: flex;
+  column-gap: 16px;
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock {
+  background-color: rgba(83, 145, 0, 0.07);
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blackBigSpan {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-right: 20px;
+}
+@media (max-width: 1000px) {
+  .containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blackBigSpan {
+    font-size: 22px;
+    margin-right: 10px;
+  }
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blockForGreenSpan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blockForGreenSpan span {
+  color: rgb(83, 145, 0);
+  font-size: 21px;
+  font-weight: 700;
+}
+@media (max-width: 1000px) {
+  .containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blockForGreenSpan span {
+    font-size: 18px;
+  }
+}
+.containerDollarUsEuro .containerForTwoParts .leftPart .grayBlock .blockForGreenSpan img {
+  width: 20px;
+  height: 20px;
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer .blockForTime {
+  display: flex;
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer .blockForTime img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer .blockForTime span {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer .spanDisclaimer {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 28px;
+  text-decoration: underline;
+  text-decoration-color: grey;
+  text-decoration-style: dotted;
+  text-underline-offset: 5px;
+}
+.containerDollarUsEuro .containerForTwoParts .blockForTimeAndDisclaimer .spanDisclaimer:hover {
+  cursor: pointer;
+}
+.containerDollarUsEuro .containerForTwoParts .rightPart {
+  display: flex;
+  flex-direction: column;
+}
+.containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange {
+  display: flex;
+  justify-content: space-between;
+}
+.containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange img {
+  margin: 0 8px;
+}
+@media (max-width: 1050px) {
+  .containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 950px) {
+  .containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange img {
+    max-width: 35%;
+  }
+}
+.containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange .title {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  margin-right: 18px;
+}
+.containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange .firstNumber, .containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange .secondNumber {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+@media (max-width: 800px) {
+  .containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange .firstNumber, .containerDollarUsEuro .containerForTwoParts .rightPart .blockForChange .secondNumber {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=dollarUsEuro.css.map */

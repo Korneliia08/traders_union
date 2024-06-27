@@ -1,0 +1,180 @@
+.currentCourse {
+  display: flex;
+  padding: 16px 0;
+  background-color: rgba(249, 249, 249, 1);
+  margin-top: 30px;
+  flex-wrap: wrap;
+
+
+  .containerForOptionsAndSocials {
+    display: flex;
+    @media (max-width: 800px) {
+      flex-direction: column-reverse;
+    }
+
+    .blockForOptions {
+      display: flex;
+      column-gap: 13px;
+      align-items: center;
+      height: 40px;
+
+      a {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        text-decoration: none;
+        color: rgba(79, 79, 79, 1);
+        text-transform: uppercase;
+
+        &:first-child {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          background-color: rgba(44, 100, 235, 0.07);
+          color: rgba(44, 100, 235, 1);
+          border-radius: 50px;
+          padding: 0px 20px;
+          border: 1px solid rgba(44, 100, 235, 0.35);
+        }
+      }
+    }
+
+    .blockForSocials {
+      display: flex;
+      align-items: center;
+      column-gap: 22px;
+
+      @media (max-width: 800px) {
+        width: 100%;
+        padding-right: 20px;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+      }
+
+      .spanShare {
+        line-height: 18px;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.7);
+        @media (max-width: 800px) {
+          font-size: 14px;
+        }
+
+      }
+
+      img {
+        width: 18px;
+        height: 18px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .containerForSelectInCurrency {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    select {
+      padding: 10px;
+      background: white;
+      border: 1px solid #D3D3D4;
+      width: 95%;
+    }
+  }
+
+  .containerForBlocksOfCurrency {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+    column-gap: 10px;
+    overflow-x: hidden;
+    max-width: 1170px;
+
+    .block {
+      min-width: 200px;
+      display: flex;
+      background-color: white;
+      padding: 10px;
+      max-width: 220px;
+      width: 100%;
+      justify-content: space-between;
+      margin-right: 5px;
+      border: 1px solid #E1E1E1;
+      border-radius: 10px;
+
+      .leftPart {
+        display: flex;
+
+        .blockForIcon {
+          background-color: rgba(83, 145, 0, 0.07);
+          margin-right: 10px;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 6px;
+          flex-shrink: 0;
+
+          &:nth-child(2) {
+            background-color: rgba(204, 82, 73, 0.07);
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .blockForCurrencyAndValue {
+          display: flex;
+          flex-direction: column;
+          max-width: 105px;
+          width: 100%;
+          align-content: start;
+
+          .currencySpan {
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 18px;
+          }
+
+          .valueSpan {
+            color: rgba(0, 0, 0, 1);
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+          }
+        }
+      }
+
+      .rightPart {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6px;
+
+        .spanPercent {
+          color: rgba(83, 145, 0, 1);
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 18px;
+        }
+
+        .spanValue {
+          color: rgba(83, 145, 0, 1);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}

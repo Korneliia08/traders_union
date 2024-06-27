@@ -1,0 +1,86 @@
+.asideBlock.long-term-forecast {
+  padding-left: 0;
+  padding-right: 0;
+}
+.asideBlock.long-term-forecast h2 {
+  font-size: 21px;
+  line-height: 135%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.asideBlock.long-term-forecast .block1 {
+  width: 40px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 16px;
+}
+.asideBlock.long-term-forecast .nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFDFE0;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.asideBlock.long-term-forecast .nav a {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+}
+.asideBlock.long-term-forecast .nav a:hover {
+  cursor: pointer;
+}
+.asideBlock.long-term-forecast .nav a.active {
+  position: relative;
+  color: #539100;
+}
+.asideBlock.long-term-forecast .nav a.active:after {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  content: "";
+  bottom: -4px;
+  border-bottom: 3px solid #539100;
+}
+.asideBlock.long-term-forecast .elements {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.asideBlock.long-term-forecast .elements .element {
+  width: 100%;
+  padding: 10px 16px;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.asideBlock.long-term-forecast .elements .element:nth-child(odd) {
+  background-color: #F9F9F9;
+}
+.asideBlock.long-term-forecast .elements .element .title {
+  color: rgba(0, 0, 0, 0.7);
+}
+.asideBlock.long-term-forecast .elements .element .value {
+  text-align: left;
+  flex-grow: 100;
+}
+.asideBlock.long-term-forecast .elements .element .status {
+  text-align: right;
+}
+.asideBlock.long-term-forecast .elements .element .status.red {
+  color: #CC5249;
+}
+.asideBlock.long-term-forecast .elements .element .status.green {
+  color: #539100;
+}
+.asideBlock.long-term-forecast .description {
+  font-size: 12px;
+  line-height: 135%;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 16px;
+}
+
+/*# sourceMappingURL=long-term-forecast.css.map */

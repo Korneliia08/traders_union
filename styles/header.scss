@@ -1,0 +1,122 @@
+header {
+  width: 100%;
+  padding: 16px 0;
+  align-items: center;
+  position: sticky;
+  @media (max-width: 800px) {
+    padding: 3px 0;
+  }
+
+  & > div {
+
+    @media (max-width: 800px) {
+      padding: 2px 16px;
+    }
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 520px;
+    margin-top: 8px;
+  }
+
+  img {
+    width: 130px;
+    @media (max-width: 800px) {
+      width: 65px;
+    }
+  }
+
+  .blockForBtns {
+    display: flex;
+    column-gap: 6px;
+
+    .btnSignIn, .btnRegister {
+      padding: 10px 50px;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 600;
+      border-radius: 10px;
+      text-transform: uppercase;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .btnSignIn {
+      background-color: rgba(44, 100, 235, 0.07);
+      border: 1px solid rgba(44, 100, 235, 0.15);
+
+      &:hover {
+        background-color: rgba(10, 57, 169, 0.16);
+      }
+    }
+
+    .btnRegister {
+      background-color: rgba(44, 100, 235, 1);
+      color: white;
+      border: none;
+
+      &:hover {
+        background-color: rgb(33, 87, 218);
+      }
+    }
+  }
+}
+
+html body .mobileMenu {
+  @media (max-width: 800px) {
+    position: fixed;
+    left: -330px;
+    top: 57px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    transition: 300ms;
+    border-bottom: 2px outset #4a4a4a;
+    border-right: 2px outset #4a4a4a;
+    z-index: 5;
+    nav {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      padding: 17px 2px;
+    }
+    &.open {
+      left: 0px;
+    }
+  }
+
+}
+
+.wrapperForContent.path {
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+
+  img {
+    height: 6px;
+    position: relative;
+    top: 1px;
+  }
+
+  span {
+    color: #494B49;
+    font-size: 12px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.black {
+      color: black;
+    }
+  }
+}
